@@ -23,8 +23,6 @@ def task2(s):
         
     return runningsum
             
-    
-
 sum = 0
 with open("input", "r") as f:
     sum += task2(f.read())
